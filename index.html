@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Base Design</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<div class="container-fluid p-3">
+		<div class="row">
+			<div class="col-6">
+				<div class="form-group row">
+					<label for="patientType" class="col-sm-4 col-form-label">Patient Type</label>
+					<div class="col-sm-8">
+						<select class="form-control " id="patientType" name="patientType">
+					      <option selected value="">Gereral Patient</option>
+					      <option>2</option>
+					    </select>
+					</div>
+				</div>
+				<hr>
+				<div class="row mb-2">
+					<div class="col-sm-2">
+						<label class="col-form-label">Patient</label>
+					</div>
+					<div class="col-sm-2">
+						<select class="form-control " id="patientType">
+					      <option selected value="">MR</option>
+					      <option value="">MRS</option>
+					      <option value="">Miss</option>
+					    </select>
+					</div>
+					<div class="col-sm-8">
+						<input type="text" name="patientName" class="form-control">
+					</div>
+				</div>
+				<div class="row mb-2">
+					<label for="address" class="col-sm-2 col-form-label">Address</label>
+					<div class="col-sm-10">
+						<input type="text" name="address" class="form-control">
+					</div>
+				</div>
+				<div class="row mb-2">
+					<div class="col-sm-4">
+						<div class="row">
+							<div class="col-6">
+								<label class="col-form-label">Age</label>
+							</div>
+							<div class="col-6">
+								<input type="number" name="patientAge" class="form-control">
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="row">
+							<div class="col-2">
+								<label class="col-form-label">DoB</label>
+							</div>
+							<div class="col-10">
+								<input type="date" name="patientDoB" class="form-control">
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="row">
+							<div class="col-4">
+								<label class="col-form-label">Gender</label>
+							</div>
+							<div class="col-8">
+								<select class="form-control " id="gender" name="gender">
+							      <option selected value="">Male</option>
+							      <option>Female</option>
+							      <option>Other</option>
+							    </select>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row mb-2">
+					<div class="col-sm-4">
+						<div class="col-2">
+							<label class="col-form-label">Marital St.</label>
+						</div>
+						<div class="col-10">
+							<select class="form-control " id="maritalSt" name="maritalSt">
+						      <option selected value="">Single</option>
+						      <option value="">Married</option>
+						      <option value="">Divorced</option>
+						    </select>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						
+					</div>
+				</div>
+			</div>
+			<div class="col-6"></div>
+		</div>
+	</div>
+	
+
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
