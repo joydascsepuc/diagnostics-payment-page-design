@@ -82,23 +82,103 @@
 				</div>
 				<div class="row mb-2">
 					<div class="col-sm-4">
-						<div class="col-2">
-							<label class="col-form-label">Marital St.</label>
-						</div>
-						<div class="col-10">
-							<select class="form-control " id="maritalSt" name="maritalSt">
-						      <option selected value="">Single</option>
-						      <option value="">Married</option>
-						      <option value="">Divorced</option>
-						    </select>
+						<div class="row">
+							<div class="col-6">
+								<label class="form-label">Marital St.</label>
+							</div>
+							<div class="col-6">
+								<select class="form-control " id="maritalSt" name="maritalSt">
+							      <option selected value="">Single</option>
+							      <option value="">Married</option>
+							      <option value="">Divorced</option>
+							    </select>
+							</div>
 						</div>
 					</div>
 					<div class="col-sm-4">
-						
+						<div class="row">
+							<div class="col-4">
+								<label class="col-form-label">B.Group</label>
+							</div>
+							<div class="col-8">
+								<select class="form-control " id="bloodGroup" name="bloodGroup">
+							      <option selected value="">A+</option>
+							      <option value="">A-</option>
+							      <option value="">AB-</option>
+							    </select>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="row">
+							<div class="col-4">
+								<label class="form-label">Contact</label>
+							</div>
+							<div class="col-8">
+								<input type="number" class="form-control" name="contactno" id="contactno">
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-6"></div>
+			<div class="col-6">
+				<div class="row">
+					<div class="col-4">
+						<div class="row">
+							<div class="col-6">
+								<label class="col-form-label">Doc Code</label>
+							</div>
+							<div class="col-6">
+								<input type="text" name="docCode" class="form-control">
+							</div>
+						</div>
+					</div>
+					<div class="col-1">
+						<a class="btn btn-sm" style="border: 1px solid black;" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">self</a>
+					</div>
+					<div class="col-1">
+						<button class="btn btn-sm" style="border: 1px solid black;" type="button">Clear</button>
+					</div>
+					<div class="col-3">
+						<a class="btn btn-sm" style="border: 1px solid black;" data-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2">New Doctor</a>
+					</div>
+					<div class="col-3">
+						<a class="btn btn-sm" style="border: 1px solid black;" data-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample3">Second Ref</a>
+					</div>
+				</div>
+			  	
+				
+				<div class="collapse multi-collapse" id="multiCollapseExample1">
+				 	<div class="card card-body">
+			        	<div class="row">
+			        		<div class="col-4">
+			        			<label class="form-control">Doctor Names</label>
+			        		</div>
+			        	</div>
+			      	</div>
+				</div>
+				<div class="collapse multi-collapse" id="multiCollapseExample2">
+				    <div class="card card-body">
+				        NEW DOCTOR PART
+				    </div>
+				</div>
+				<div class="collapse multi-collapse" id="multiCollapseExample3">
+				    <div class="card card-body">
+				        SECOND REFERENCE TYPE
+				    </div>
+				</div>
+
+				
+
+
+
+
+
+
+
+
+
+			</div>
 		</div>
 	</div>
 	
