@@ -11,6 +11,7 @@
 <body>
 
 	<div class="container-fluid p-3">
+		<!-- Section 001 -->
 		<div class="row">
 			<div class="col-6">
 				<div class="form-group row">
@@ -22,6 +23,7 @@
 					    </select>
 					</div>
 				</div>
+				<hr>
 				<hr>
 				<div class="row mb-2">
 					<div class="col-sm-2">
@@ -122,7 +124,7 @@
 				</div>
 			</div>
 			<div class="col-6">
-				<div class="row">
+				<div class="row text-center">
 					<div class="col-4">
 						<div class="row">
 							<div class="col-6">
@@ -140,21 +142,17 @@
 						<button class="btn btn-sm" style="border: 1px solid black;" type="button">Clear</button>
 					</div>
 					<div class="col-3">
-						<a class="btn btn-sm" style="border: 1px solid black;" data-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2">New Doctor</a>
+						<a class="btn btn-sm" style="border: 1px solid black;" data-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2">New Doctor Sec.</a>
 					</div>
 					<div class="col-3">
-						<a class="btn btn-sm" style="border: 1px solid black;" data-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample3">Second Ref</a>
+						<a class="btn btn-sm" style="border: 1px solid black;" data-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample3">Second Reference</a>
 					</div>
 				</div>
 			  	
-				
+				<!-- Collapse Section Codes -->
 				<div class="collapse multi-collapse" id="multiCollapseExample1">
 				 	<div class="card card-body">
-			        	<div class="row">
-			        		<div class="col-4">
-			        			<label class="form-control">Doctor Names</label>
-			        		</div>
-			        	</div>
+			        	SELF
 			      	</div>
 				</div>
 				<div class="collapse multi-collapse" id="multiCollapseExample2">
@@ -168,17 +166,100 @@
 				    </div>
 				</div>
 
-				
+				<div class="row mt-1">
+	        		<div class="col-3 text-right">
+	        			<label class="form-label">Doctor Names</label>
+	        		</div>
+	        		<div class="col-9">
+	        			<input type="text" name="doctorName" class="form-control">
+	        		</div>
+	        	</div>
 
+	        	<div class="row">
+	        		<div class="col-3 text-right">
+	        			<label class="form-label">Degree</label>
+	        		</div>
+	        		<div class="col-9">
+	        			<input type="text" name="doctorDegree" class="form-control" disabled>
+	        		</div>
+	        	</div>
 
+	        	<div class="row">
+	        		<div class="col-3 text-right">
+	        			<label class="form-label">Address</label>
+	        		</div>
+	        		<div class="col-9">
+	        			<input type="text" name="doctorAddress" class="form-control" disabled>
+	        		</div>
+	        	</div>
 
+	        	<div class="row">
+	        		<div class="col-3 text-right">
+	        			<label class="form-label">Contact</label>
+	        		</div>
+	        		<div class="col-9">
+	        			<input type="text" name="doctorContact" class="form-control" disabled>
+	        		</div>
+	        	</div>
 
+	        	<div class="row">
+	        		<div class="col-3 text-right">
+	        			<label class="form-label">Remark</label>
+	        		</div>
+	        		<div class="col-9">
+	        			<input type="text" name="doctorRemark" class="form-control" disabled>
+	        		</div>
+	        	</div>
 
-
-
-
-
+	        	<div class="row">
+	        		<div class="col-8">
+	        			<div class="row">
+	        				<div class="col-7 text-right">
+	        					<label class="form-label">All Items Delivery Status</label>
+	        				</div>
+	        				<div class="col-5">
+	        					<select class="form-control " id="bloodGroup" name="bloodGroup">
+							      <option selected value="">Normal</option>
+							      <option value="">Abnormal</option>
+							    </select>
+	        				</div>
+	        			</div>
+	        		</div>
+	        		<div class="col-4">
+	        			<div class="form-check form-check-inline">
+						  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+						  <label class="form-check-label" for="inlineRadio1">Child</label>
+						</div>
+						<div class="form-check form-check-inline">
+						  <input class="form-check-input" checked type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+						  <label class="form-check-label" for="inlineRadio2">Adult</label>
+						</div>
+	        		</div>
+	        	</div>
 			</div>
+
+			<!-- Section 002 -->
+			<table class="table text-center">
+				<thead>
+					<tr>
+						<th>Sl No</th>
+						<th colspan="2">Department</th>
+						<th>Item ID</th>
+						<th colspan="4">Item Name</th>
+						<th>Rate</th>
+						<th>Quantity</th>
+						<th colspan="2">Delivery Status</th>
+						<th colspan="3">Item Delivery Date & Time</th>
+						<th>Discount</th>
+						<th>Item Total</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+				</tbody>
+			</table>
+
+
 		</div>
 	</div>
 	
