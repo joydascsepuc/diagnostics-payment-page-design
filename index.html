@@ -463,9 +463,9 @@
 		<!-- Section 003 -->
 		<div>
 			<div class="row">
-				<div class="col-4">
+				<div class="col-3">
 					<label class="form-label">Doctor Name</label>
-					<textarea class="form-control" cols="3" ></textarea>
+					<textarea class="form-control" id="id01"></textarea>
 					<hr>
 					<div class="row text-center">
 						<div class="col-6">
@@ -492,7 +492,53 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-6"></div>
+				<div class="col-7">
+					<div class="row">
+						<div class="col-6">
+							<div class="row">
+								<div class="col-4">
+									<label class="form-label">Discount Type</label>
+								</div>
+								<div class="col-8">
+									<select class="form-control " id="patientType">
+								      <option selected value="">Select Discount Type</option>
+								    </select>
+								</div>
+							</div>
+						</div>
+						<div class="col-4">
+							<div class="row">
+								<div class="col-6">
+									<label class="form-label">Dis. Amount</label>
+								</div>
+								<div class="col-6 row">
+									<input type="number" name="" class="form-control col">&nbsp;/&nbsp; <input type="number" name="" class="form-control col">
+								</div>
+							</div>
+						</div>
+						<div class="col-2">
+							<button class="btn btn-sm btn-block" style="border:1px solid black;">Clc Disc</button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-10">
+							<div class="row">
+								<div class="col-3">
+									<label class="form-label">Discount By</label>
+								</div>
+								<div class="col-9">
+									<select class="form-control" id="patientType">
+								      <option selected value="">Select Discount & Authorized person</option>
+								    </select>
+								</div>
+							</div>
+						</div>
+						<div class="col-2">
+							<button class="btn btn-sm btn-block" style="border:1px solid black;">Clear</button>
+						</div>
+					</div>
+
+				</div>
 				<div class="col-2"></div>
 			</div>
 		</div>
