@@ -28,3 +28,14 @@
     line-height: 1.5;
     border-radius: .2rem;
 }
+
+.btn-md, .btn-group-sm > .btn {
+  padding: 0.35rem 0.7rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+}
+
+.btn-md{
+  border: 1px solid black;
+}
