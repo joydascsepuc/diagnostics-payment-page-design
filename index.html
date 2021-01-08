@@ -537,7 +537,115 @@
 							<button class="btn btn-sm btn-block" style="border:1px solid black;">Clear</button>
 						</div>
 					</div>
-
+					<div class="row">
+						<div class="col-2">
+							<div class="form-check form-check-inline">
+							  <input class="form-check-input" type="radio" name="cashorother" id="inlineRadio1" value="option1">
+							  <label class="form-check-label" for="inlineRadio1">Cash</label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <input class="form-check-input" checked type="radio" name="cashorother" id="inlineRadio2" value="option2">
+							  <label class="form-check-label" for="inlineRadio2">Other</label>
+							</div>
+						</div>
+						<div class="col-2">
+							<label class="form-label">Pay Amount</label><br>
+							<input type="number" name="payAmount" class="form-control">
+						</div>
+						<div class="col-2">
+							<label class="form-label">Given</label><br>
+							<input type="number" name="given" class="form-control">
+						</div>
+						<div class="col-2">
+							<label class="form-label">Charge</label><br>
+							<input type="number" name="charge" class="form-control">
+						</div>
+						<div class="col-4">
+							<label class="form-label">Others Pay Amount</label><br>
+							<input type="number" name="othersPayAmount" class="form-control">
+						</div>
+					</div>
+					<div class="row mt-1">
+						<div class="col-2">
+							<label class="form-label">Remarks:</label>
+						</div>
+						<div class="col-10">
+							<input type="text" name="remakrs" class="form-control">
+						</div>
+					</div>
+					<div class="row mt-1">
+						<div class="col-2">
+							<label class="form-label">Del.Date&Time</label>
+						</div>
+						<div class="col-2">
+							<select class="form-control " id="year" name="year">
+						      <option selected value="">2021</option>
+						      <option value="">2022</option>
+						    </select>
+						</div>
+						<div class="col-2">
+							<select class="form-control " id="year" name="year">
+						      <option selected value="">January</option>
+						      <option value="">February</option>
+						      <option value="">March</option>
+						      <option value="">April</option>
+						      <option value="">May</option>
+						      <option value="">June</option>
+						      <option value="">July</option>
+						      <option value="">August</option>
+						      <option value="">Spetember</option>
+						      <option value="">October</option>
+						      <option value="">November</option>
+						      <option value="">December</option>
+						    </select>
+						</div>
+						<div class="col-2">
+							<select class="form-control " id="date" name="date">
+						      <option selected value="">01</option>
+						      <option value="">02</option>
+						      <option value="">03</option>
+						    </select>
+						</div>
+						<div class="col-2">
+							<select class="form-control " id="hour" name="hour">
+						      <option selected value="">01</option>
+						      <option value="">02</option>
+						      <option value="">03</option>
+						      <option value="">04</option>
+						    </select>
+						</div>
+						<div class="col-1">
+							<select class="form-control " id="minute" name="minute">
+						      <option selected value="">01</option>
+						      <option value="">02</option>
+						      <option value="">03</option>
+						      <option value="">04</option>
+						    </select>
+						</div>
+						<div class="col-1">
+							<select class="form-control " id="ampm" name="ampm">
+						      <option selected value="">AM</option>
+						      <option value="">PM</option>
+						    </select>
+						</div>
+					</div>
+					<div class="row mt-1">
+						<div class="col-2">
+							<button class="btn btn-md font-weight-bold">Save&Print</button>
+						</div>
+						<div class="col-2">
+							<button class="btn btn-md">Save&Show</button>
+						</div>
+						<div class="col-2">
+							<button class="btn btn-md">New Invoice</button>
+						</div>
+						<div class="col-3">
+							<button class="btn btn-md">Last Invoice Show</button>
+						</div>
+						<div class="col-3">
+							<button class="btn btn-md">Last Invoice Print</button>
+						</div>
+					</div>
 				</div>
 				<div class="col-2"></div>
 			</div>
